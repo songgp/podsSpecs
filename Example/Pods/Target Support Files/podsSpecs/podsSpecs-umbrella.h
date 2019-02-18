@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "UIDevice+Common.h"
+#import "UIScreen+CYPSafeArea.h"
 
 FOUNDATION_EXPORT double podsSpecsVersionNumber;
 FOUNDATION_EXPORT const unsigned char podsSpecsVersionString[];

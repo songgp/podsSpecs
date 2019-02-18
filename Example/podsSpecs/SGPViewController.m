@@ -7,7 +7,7 @@
 //
 
 #import "SGPViewController.h"
-
+#import "UIScreen+CYPSafeArea.h"
 @interface SGPViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [UIScreen c_safeAreaInsetsForIPhoneX];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
